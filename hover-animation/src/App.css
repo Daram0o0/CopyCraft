@@ -1,0 +1,35 @@
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font: 550 5.5rem "arial-black", impact, sans-serif;
+    cursor: pointer;
+  }
+
+  & :where(h1, .image) {
+    position: absolute;
+  }
+}
+
+.stroke {
+  z-index: 10;
+  -webkit-text-stroke-width: 0.25rem;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+
+  &:hover + .image {
+    opacity: 1;
+    transform: translateX(-12%) rotate(3deg);
+    transition: transform 2s, opacity 0.5s;
+  }
+}
+
+.image {
+  width: 1200px;
+  opacity: 0;
+  transform: translateX(150%);
+  transition: transform 1s, opacity 0.5s 0.25s;
+}

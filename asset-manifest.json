@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CopyCraft/tic-tac-toe/static/css/main.e85387bd.css",
+    "main.js": "/CopyCraft/tic-tac-toe/static/js/main.eb442931.js",
+    "static/js/453.e036e8b5.chunk.js": "/CopyCraft/tic-tac-toe/static/js/453.e036e8b5.chunk.js",
+    "index.html": "/CopyCraft/tic-tac-toe/index.html",
+    "main.e85387bd.css.map": "/CopyCraft/tic-tac-toe/static/css/main.e85387bd.css.map",
+    "main.eb442931.js.map": "/CopyCraft/tic-tac-toe/static/js/main.eb442931.js.map",
+    "453.e036e8b5.chunk.js.map": "/CopyCraft/tic-tac-toe/static/js/453.e036e8b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e85387bd.css",
+    "static/js/main.eb442931.js"
+  ]
+}
